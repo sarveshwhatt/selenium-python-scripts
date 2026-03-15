@@ -36,5 +36,4 @@ driver = Chrome(options=0)
 driver.get("https://www.amazon.in")
 driver.maximize_window()
 sleep(3)
-driver.find_element(By.LINK_TEXT,SSSSSSSSSSSSSSSSSSSSSSSSSSSSS
-SSSSSSSSSSSSSStoday's Deal").click()
+driver.find_element(By.LINK_TEXT,"today's Deal").click()
